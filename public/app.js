@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://farajdaoud-timestamp.glitch.me/api/timestamp/2019-01-15')
+  fetch('https://farajdaoud-timestamp.glitch.me/api/timestamp/')
     .then((res) => {
       return res.json();
   })
